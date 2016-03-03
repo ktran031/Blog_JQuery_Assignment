@@ -5,10 +5,11 @@ $(document).ready(function()
 */
 
 $(".readmore").click(readSlide);
-$(".readless").click(lessSlide);
+// $(".readless").click(lessSlide);
 
 function readSlide() {
-	$("p").slideDown();
+	$("#readp").slideDown();
+	$("#show-this-on-click").show();
 	$(".readmore").hide();
 	$(".readless").show();
 
