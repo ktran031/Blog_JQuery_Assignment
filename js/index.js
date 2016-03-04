@@ -9,6 +9,8 @@ $(document).ready(function()
 $(".readmore").click(readSlide);
 $(".readless").click(lessSlide);
 
+
+
 function readSlide () {
 	$("#show-this-on-click").slideDown(); 
 	$("#show-this-on-click").show(); 
@@ -22,4 +24,13 @@ function lessSlide() {
 	$(".readless").hide();
 	$(".readmore").show();
 	
+}
+
+
+$(".learnmore").click(learnSlide);
+
+function learnSlide () {
+	$("#learnmoretext").slideDown();
+	$(".learnmore").hide();
+
 }
