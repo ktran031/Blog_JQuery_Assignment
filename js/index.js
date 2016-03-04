@@ -10,7 +10,7 @@ $(".readmore").click(readSlide);
 $(".readless").click(lessSlide);
 
 function readSlide () {
-	$("#readp").slideDown();
+	$("#show-this-on-click").slideDown(); 
 	$("#show-this-on-click").show(); 
 	$(".readmore").hide();
 	$(".readless").show();
@@ -18,10 +18,8 @@ function readSlide () {
 }
 
 function lessSlide() {
-	$("#readp").slideUp();
+	$("#show-this-on-click").slideUp(); 
 	$(".readless").hide();
 	$(".readmore").show();
-	
-
 	
 }
