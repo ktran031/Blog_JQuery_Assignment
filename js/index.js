@@ -4,20 +4,24 @@ $(document).ready(function()
 });
 */
 
-$(".readmore").click(readSlide);
-// $(".readless").click(lessSlide);
 
-function readSlide() {
+
+$(".readmore").click(readSlide);
+$(".readless").click(lessSlide);
+
+function readSlide () {
 	$("#readp").slideDown();
-	$("#show-this-on-click").show();
+	$("#show-this-on-click").show(); 
 	$(".readmore").hide();
 	$(".readless").show();
 
 }
 
-// function lessSlide() {
-// 	$("p").slideUp();
-// 	$(".readless").hide();
-// 	$(".readmore").show();
-// }
+function lessSlide() {
+	$("#readp").slideUp();
+	$(".readless").hide();
+	$(".readmore").show();
+	
 
+	
+}
