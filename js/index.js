@@ -4,6 +4,11 @@ $(document).ready(function()
 });
 */
 
+$(document).ready(function(){
+    $("a").click(function(event){
+        event.preventDefault();
+    });
+});
 
 
 $(".readmore").click(readSlide);
